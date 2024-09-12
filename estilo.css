@@ -1,0 +1,112 @@
+*{
+ margin:0 ;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+
+    background-color:bisque;
+}
+header{
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(255, 186, 136);
+    padding: 6px;
+    border:2px solid palevioletred;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+
+
+}
+header> h1{
+         font-size: 40px;
+         font-family: 'Times New Roman', serif;
+         text-align: center;
+         text-shadow: 2px 2px 5px white;
+}
+header > h2{
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+
+
+}
+nav{
+    background-color:rgb(255, 186, 136);
+    width: 75%;
+    margin: 6px auto;
+}
+nav>menu{
+    list-style: none;
+    padding: 8px;
+    border:2px dashed palevioletred;
+    border-radius: 20px;
+}
+nav>menu>li{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 2px 0;
+    border-radius: 20px;
+}
+nav  a{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+nav li:hover{
+    background-color: pink;
+
+}
+aside{
+    background-color: rgb(255, 186, 136);
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 20px;
+    color: antiquewhite;
+    text-align: center;
+}
+aside >img {
+    width: 180px;
+    border-radius: 80%;
+    border: 2px solid palevioletred;
+    margin: 10px;
+    padding: 2px;
+}
+main{
+    margin: auto;
+    width: 75%;
+
+}
+main article{
+    background-color: rgb(255, 186, 136);
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 10px;
+    box-shadow: 2px 2px 5px white;
+}
+footer{
+    width: 80%;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(255, 186, 136);
+    border: 2px solid palevioletred;
+    margin: 10px auto 0;
+    padding: 10px;
+    text-align: center;
+}
+footer >p{
+    background-color: palevioletred;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px black;
+}
+footer>a:hover{
+    background-color: coral;
+    color: bisque;
+    box-shadow: -1px -1px 3px plum;
+}
+#ariana>article{
+
+}
+
